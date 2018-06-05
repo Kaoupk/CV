@@ -22,7 +22,7 @@ body{
 	margin-top: 300px;
 }
 
-#conteneur{
+#conteneurimg{
 	display: flex;
 	justify-content: center;
 }
@@ -32,15 +32,18 @@ body{
 	justify-content: center;
 }
 
-#competences{
+.competences{
 			font-size: 150%;
 			text-align: center;
+			align-self: center;
 }
 
-.box{
+#box{
 	display: flex;
-justify-content: center;
+	justify-content: space-between;
+	flex-direction: center;
 }
+
 
 #experiences{
 	font-size: 150%;

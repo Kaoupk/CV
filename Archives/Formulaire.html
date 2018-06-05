@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8" />
+        <p>Texte avant le formulaire</p>
+
+    </head>
+
+      <form method="post" action="traitement.php">
+
+         <p>
+
+           <label for="nom">Inserez votre nom </label> : <input type="text" name="nom" id="nom" size="30" maxlenght="30" placeholder="Ex : Corentin Milot"/ required><br />
+           <br />
+           <label for="mdp">Inserez votre mot de passe</label> : <input type="text" name="mdp" id="mdp" size="30" maxlenght="30" placeholder="***********" required><br />
+           <br />
+           <br />
+           <label for="ameliorer">Si vous souhaitez que je vous rencontre :</label><br />
+<br />
+                  <textarea name="ameliorer" id="ameliorer" rows="15" cols="50" placeholder="Adresse"></textarea><br />
+                  <br />
+                  <label for="email">Envoyer ceci par email</label> : <input type="email" value="corentin.milot@free.fr"/>
+                <br />
+                <br />
+                <label for="tel">Si vous souhaitez que je vous rappelle</label> : <input type="tel"/><br />
+                <br />
+                <label for="date">Si oui, a quelle date ? </label><input type="date"/><br />
+                <br />
+                <p>
+    Ce site est :<br />
+    <input type="radio" name="frites" id="frites" /> <label for="frites">Très bien</label><br />
+    <input type="radio" name="frites" id="steak" /> <label for="steak">Bien</label><br />
+    <input type="radio" name="frites" id="epinards" /> <label for="epinards">Juste correct</label><br />
+    <input type="radio" name="frites" id="huitres" /> <label for="huitres">Mauvais</label>
+</p>
+         </p>
+
+         <label for="pays">Dans quel pays habitez-vous ?</label><br />
+
+     <select name="pays" id="pays">
+       <optgroup label="Europe">
+         <option value="france">France</option>
+
+         <option value="espagne">Espagne</option>
+
+         <option value="italie">Italie</option>
+
+         <option value="royaume-uni">Royaume-Uni</option>
+       <optgroup label="Amerique">
+         <option value="canada">Canada</option>
+
+         <option value="etats-unis">États-Unis</option>
+       <optgroup label="Asie">
+         <option value="chine">Chine</option>
+
+         <option value="japon">Japon</option>
+
+     </select><br /><br />
+
+
+     <input type="submit" value="Envoyer" /><br />
+     <input type="reset" value="Tout effacer" />
+
+      </form>
+
+
+      <p>Texte après le formulaire</p>
+	</body>
+
+
+</html>
