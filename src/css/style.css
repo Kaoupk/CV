@@ -3,7 +3,7 @@ html{
 }
 body{
 
-	background-image: url("back.png");
+	background-image: url("../img/back.png");
 	font-family: Verdana;
 	font-size: 100%;
 	margin:0;
@@ -39,7 +39,7 @@ body{
 
 .box{
 	display: flex;
-	align-self: center;
+justify-content: center;
 }
 
 #experiences{

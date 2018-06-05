@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="stylemenu.css" />
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#competences" class="active">Compétences</a>
+  <a href="#experiences">Experiences</a>
+  <a href="#formations">Formations</a>
+  <a href="#informations">Informations</a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+ 	<div id="competences">
+	  <ul>
+	    <li> Entretenir un espace extérieur/intérieur</li>
+        <li> Préparer le matériel</li>
+	    <li> Respecter le temps indiqué et les consignes de sécurité et d’hygiène</li>
+	    <li> Informer le responsable des anomalies</li>
+	    <li> Éliminer par aération, désodorisation, les pollutions des lieux</li>
+	    <li> Renseigner les supports de suivi</li>
+	    <li> Nettoyer du matériel ou un équipement</li>
+	  </ul>
+	</div>
+
+	<div id="experiences">
+	  <ul>
+	    <li> Août 2017 - <strong>Agent de propreté</strong> - <em>Pierre et Vacances</em> - Port en Bessin - 1 mois</li>
+		<li> Août 2015 - <strong>Employé saisonnier</strong> - <em>Mairie (service propreté)</em> - Illkirch - 1 mois</li>
+		<li> Février 2013 - <strong>Stagiaire vendeur</strong> - <em>Décathlon - Geispolsheim</em> - 1 semaine</li>
+	  </ul>
+	</div>
+	
+    <div id="formations">
+	  <ul>
+        <li>2017 - <strong>Bac STIDD - Lycée Louis Couffignal</strong> - Strasbourg</li>
+		<li style="margin-right: 10px;">2013 - <b>Brevet des collèges - Collège des Roseaux</b> - Illkirch</li>
+	  </ul>
+    </div>
+
+	<div id="informations">
+	  <ul>
+	    <li> <strong>Informatique</strong>       Pack Office, Gimp, Photoshop</li>
+<!--    <div class="fig"><img src="office.png" style="width: 80px; margin-right: 15px; "alt="Logo office" title="Pack Office" /></div>
+	<div class="fig"><img src="gimp.png" style="width: 80px; margin-right: 15px; "alt="Logo gimp" title="Gimp" /></div>
+	<div class="fig"><img src="photo.jpg" style="width: 80px; margin-right: 15px;" alt="Logo photoshop" title="Photoshop" /></div>
+-->
+        <li> <strong>Langues</strong>             Anglais (Niveau B1), Portugais (Niveau A1)</li><br />
+        <li> <strong>Sports</strong>              Escalade, Parkour</li><br />
+        <li> <strong>Loisirs</strong>             Mangas, jeux vidéos, films/films d’animation </li>
+	  </ul>
+	</div>
+
+	<div id="coord">
+	  <p class="name">
+        Corentin MILOT<br/>
+	    19 ans<br/>
+	    6, rue du four banal, Illkirch-Graffenstaden<br/>
+	    corentin.milot@free.fr<br/>
+	    06 21 67 27 72
+	  </p>
+	</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>
