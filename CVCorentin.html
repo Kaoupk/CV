@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Curriculum Vitae</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script type="text/javascript" src="script.js"></script>
+
+  </head>
+  <body>
+    <header>
+<div class="topnav" id="myTopnav">
+  <a href="#competences" id="menucompetences"  onclick="showTitle(event)">Compétences</a>
+  <a href="#experiences" id="menuexperiences" onclick="showTitle(event)" >Experiences</a>
+  <a href="#formations" id="menuformations" onclick="showTitle(event)">Formations</a>
+  <a href="#informations" id="menuinformations" onclick="showTitle(event)">Informations</a>
+  <a href="#coord" id="menucoord" onclick="showTitle(event)">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+	</header>
+
+  <div id="Bienvenue">
+    Madame, Monsieur, bienvenue<br />
+    Curriculum Vitae interactif, cliquez sur les onglets pour naviguer
+  </div>
+<div style="padding-left:16px" class="box">
+	<div class="hidden" id="competences">
+	  <ul>
+      <li> Préparer le matériel nécessaire</li><br />
+	    <li> Respecter le temps indiqué et les consignes de sécurité et d’hygiène</li><br />
+	    <li> Informer le responsable des anomalies</li><br />
+	    <li> Nettoyer du matériel ou un équipement</li><br />
+      <li>Conseiller un client selon ses gouts et lectures précédentes</li><br />
+      <li>Ranger et organiser par ordre alphabétique</li><br />
+      <li>S'occuper d'un caisse enregistreuse</li><br />
+      <li>S'occuper d'enfants entre 3 et 12 ans</li><br />
+      <li>Faire respecter des règles de vie a des enfants</li><br />
+	  </ul>
+	</div>
+</div>
+
+	<div class="hidden" id="experiences">
+	  <ul>
+    <li>Juin 2018 - <strong>Stage en informatique</strong> - <em>Caldera</em> - Eckbolsheim - 2 semaines</li><br />
+    <li>Mai 2018 - <strong>Stage en librairie</strong> - <em> Le Camphrier - Japan shop</em> - Strasbourg - 2 semaines</li><br />
+    <li>Avril 2018 - <strong> Stage en centre de loisirs</strong> - <em> Les petits loups</em> - Eschau - 2 semaines</li><br />
+	  <li> Août 2017 - <strong>Agent de propreté</strong> - <em>Pierre et Vacances</em> - Port en Bessin - 1 mois</li><br />
+		<li> Août 2015 - <strong>Employé saisonnier</strong> - <em>Mairie (service propreté)</em> - Illkirch - 1 mois</li> <br />
+		<li> Février 2013 - <strong>Stagiaire vendeur</strong> - <em>Décathlon</em> - Geispolsheim - 1 semaine</li>
+	  </ul>
+	</div>
+
+    <div class="hidden" id="formations">
+	  <ul>
+        <li>2017 - <strong>Bac STIDD - Lycée Louis Couffignal</strong> - Strasbourg</li><br />
+		<li style="margin-right: 10px;">2013 - <b>Brevet des collèges - Collège des Roseaux</b> - Illkirch</li>
+	  </ul>
+    </div>
+
+	<div class="hidden" id="informations">
+	  <ul>
+	    <li> <strong>Informatique</strong>       Pack Office, Gimp, Photoshop</li><br />
+      <div id="conteneur">
+   <div class="fig"><img src="office.png" style="width: 80px; margin-right: 15px; "alt="Logo office" title="Pack Office" /></div>
+	<div class="fig"><img src="gimp.png" style="width: 80px; margin-right: 15px; "alt="Logo gimp" title="Gimp" /></div>
+	<div class="fig"><img src="photo.jpg" style="width: 80px; margin-right: 15px;" alt="Logo photoshop" title="Photoshop" /></div>
+</div><br />
+        <li> <strong>Langues</strong>             Anglais (Niveau B1), Portugais (Niveau A1)</li><br />
+        <div id="conteneurDrap">
+         <div class="fig"><img src="DrapeauAng.png" style="width: 80px; margin-right: 15px;" title="Niveau B1 !" /></div>
+         <div class="fig"><img src="DrapeauPor.png" style="width: 80px; margin-right: 15px;" title="Niveau A1 !" /></div>
+       </div><br />
+        <li> <strong>Sports</strong>              Escalade, Parkour</li><br />
+        <li> <strong>Loisirs</strong>             Mangas, jeux vidéos, films/films d’animation </li>
+	  </ul>
+	</div>
+
+	<div class="hidden" id="coord">
+	  <p class="name">
+        Corentin MILOT<br/>
+	    20 ans<br/>
+	    6, rue du four banal, Illkirch-Graffenstaden<br/>
+	    corentin.milot@free.fr<br/>
+	    06 21 67 27 72
+	  </p>
+	</div>
+
+  </body>
+</html>
