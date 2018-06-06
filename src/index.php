@@ -11,16 +11,10 @@
   </head>
   <body>
     <header>
-<div class="topnav" id="myTopnav">
-  <a href="#competences" id="menucompetences"  onclick="showTitle(event)">Compétences</a>
-  <a href="#experiences" id="menuexperiences" onclick="showTitle(event)" >Experiences</a>
-  <a href="#formations" id="menuformations" onclick="showTitle(event)">Formations</a>
-  <a href="#informations" id="menuinformations" onclick="showTitle(event)">Informations</a>
-  <a href="#coord" id="menucoord" onclick="showTitle(event)">Contact</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+<?php include("menu.php");
+ ?>
+
+
 
 	</header>
 
@@ -83,7 +77,7 @@
 
 	<div class="hidden" id="coord">
 	  <p class="name">
-      <form method="post" action="traitement.php">
+      <form method="post" action="CibleFormulaire.php" enctype="multipart/form-data">
 
          <p>
 
@@ -102,10 +96,19 @@
 
 <label for="email">Envoyer ceci par email</label> : <input type="email" value="corentin.milot@free.fr"/><br />
 <br />
+        <p>
+
+                Si besoin, voici un formulaire d'envoi de fichier :<br /><br />
+
+                <input type="file" name="monfichier" /><br /><br />
+
+                <input type="submit" value="Envoyer le fichier" />
+
+        </p>
      <input type="submit" value="Envoyer" />
      <input type="reset" value="Tout effacer" />
 
-   </form><br />
+      </form><br />
    <br />   <br />   <br />   <br />   <br />
         Corentin MILOT<br/>
 	    20 ans<br/>
