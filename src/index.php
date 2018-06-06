@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Curriculum Vitae</title>
-	<link rel="stylesheet" href="../css/style.css" />
+	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <script type="text/javascript" src="../js/script.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 
   </head>
   <body>
@@ -46,7 +46,7 @@
 	<div class="hidden" id="experiences">
 	  <ul>
     <li>Juin 2018 - <strong>Stage en informatique</strong> - <em>Caldera</em> - Eckbolsheim - 2 semaines</li><br />
-    <li>Mai 2018 - <strong>Stage en librairie</strong> - <em> Le Camphrier - Japan shop</em> - Strasbourg - 2 semaines</li><br />
+    <li>Mai 2018 - <strong>Stage en librairie</strong> - <em>Librairie Le Camphrier </em> - Strasbourg - 2 semaines</li><br />
     <li>Avril 2018 - <strong> Stage en centre de loisirs</strong> - <em> Les petits loups</em> - Eschau - 2 semaines</li><br />
 	  <li> Août 2017 - <strong>Agent de propreté</strong> - <em>Pierre et Vacances</em> - Port en Bessin - 1 mois</li><br />
 		<li> Août 2015 - <strong>Employé saisonnier</strong> - <em>Mairie (service propreté)</em> - Illkirch - 1 mois</li> <br />
@@ -63,24 +63,50 @@
 
 	<div class="hidden" id="informations">
 	  <ul>
-	    <li> <strong>Informatique</strong>       Pack Office, Gimp, Photoshop</li><br />
+	    <li> <strong>Informatique</strong>   Pack Office, Gimp, Photoshop, CSS, HTML</li><br />
       <div id="conteneurimg">
-   <div class="fig"><img src="../img/office.png" style="width: 80px; margin-right: 15px; "alt="Logo office" title="Pack Office" /></div>
-	<div class="fig"><img src="../img/gimp.png" style="width: 80px; margin-right: 15px; "alt="Logo gimp" title="Gimp" /></div>
-	<div class="fig"><img src="../img/photo.jpg" style="width: 80px; margin-right: 15px;" alt="Logo photoshop" title="Photoshop" /></div>
+    <div class="fig"><img src="img/office.png" style="width: 80px; margin-right: 40px; "alt="Logo office" title="Pack Office" /></div>
+	  <div class="fig"><img src="img/gimp.png" style="width: 80px; margin-right: 40px; "alt="Logo gimp" title="Gimp" /></div>
+	  <div class="fig"><img src="img/photo.jpg" style="width: 80px; margin-right: 40px;" alt="Logo photoshop" title="Photoshop" /></div>
+  	<div class="fig"><img src="img/CSS3.png" style="width: 60px; margin-right: 40px;" alt="Logo CSS3" title="CSS3" /></div>
+    <div class="fig"><img src="img/HTML5.png" style="width: 85px; margin-right: 40px;" alt="Logo HTML5" title="HTML5" /></div>
 </div><br />
         <li> <strong>Langues</strong>             Anglais (Niveau B1), Portugais (Niveau A1)</li><br />
         <div id="conteneurDrap">
-         <div class="fig"><img src="../img/DrapeauAng.png" style="width: 80px; margin-right: 15px;" title="Niveau B1 !" /></div>
-         <div class="fig"><img src="../img/DrapeauPor.png" style="width: 80px; margin-right: 15px;" title="Niveau A1 !" /></div>
-       </div><br />
-        <li> <strong>Sports</strong>              Escalade, Parkour</li><br />
+         <div class="fig"><img src="img/DrapeauAng.png" style="width: 80px; margin-right: 80px;" title="Niveau B1 !" /></div>
+         <div class="fig"><img src="img/DrapeauPor.png" style="width: 80px; margin-left: 100px;" title="Niveau A1 !" /></div>
+       </div><br /><br />
+        <li> <strong>Sports</strong>              Escalade, Parkour</li><br /><br />
         <li> <strong>Loisirs</strong>             Mangas, jeux vidéos, films/films d’animation </li>
 	  </ul>
 	</div>
 
 	<div class="hidden" id="coord">
 	  <p class="name">
+      <form method="post" action="traitement.php">
+
+         <p>
+
+           <label for="nom">Votre nom </label> : <input type="text" name="nom" id="nom" size="30" maxlenght="30" required><br />
+           <br />
+
+           <label for="adresse">Si vous souhaitez que je vous rencontre :</label><br />
+<br />
+                  <textarea name="adresse" id="adresse" rows="3" cols="40" placeholder="Adresse"></textarea><br />
+                  <br />
+
+                <label for="tel">Si vous souhaitez que je vous rappelle</label> : <input type="tel"/><br />
+                <br />
+                <label for="date">Si oui, a quelle date ? </label><input type="date"/><br />
+                <br />
+
+<label for="email">Envoyer ceci par email</label> : <input type="email" value="corentin.milot@free.fr"/><br />
+<br />
+     <input type="submit" value="Envoyer" />
+     <input type="reset" value="Tout effacer" />
+
+   </form><br />
+   <br />   <br />   <br />   <br />   <br />
         Corentin MILOT<br/>
 	    20 ans<br/>
 	    6, rue du four banal, Illkirch-Graffenstaden<br/>
