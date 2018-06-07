@@ -1,3 +1,41 @@
+<?php
+session_start(); // On démarre la session AVANT toute chose
+if (isset($_SESSION['nom']) && !empty($_SESSION['nom'])) {
+  $nom=$_SESSION ["nom"];
+}
+else {
+  $nom="";
+}
+
+if (isset($_SESSION['adresse']) && !empty($_SESSION['adresse'])) {
+  $adresse=$_SESSION ["adresse"];
+}
+else {
+  $adresse="";
+}
+
+if (isset($_SESSION['tel']) && !empty($_SESSION['tel'])) {
+  $tel=$_SESSION ["tel"];
+}
+else {
+  $tel="";
+}
+
+if (isset($_SESSION['date']) && !empty($_SESSION['date'])) {
+  $date=$_SESSION ["date"];
+}
+else {
+  $date="";
+}
+
+if (isset($_SESSION['textadresse']) && !empty($_SESSION['textadresse'])) {
+  $textadresse=$_SESSION ["textadresse"];
+}
+else {
+  $textadresse="";
+}
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -13,9 +51,6 @@
     <header>
 <?php include("menu.php");
  ?>
-
-
-
 	</header>
 
   <div id="Bienvenue">
@@ -77,36 +112,35 @@
 
 	<div class="hidden" id="coord">
 	  <p class="name">
-      <form method="post" action="CibleFormulaire.php" enctype="multipart/form-data">
+
+      <form method="post" action="CibleFormulaire.php" enctype="multipart/form-data" id="contactform">
 
          <p>
 
-           <label for="nom">Votre nom </label> : <input type="text" name="nom" id="nom" size="30" maxlenght="30" required><br />
+           <label for="nom">Votre nom </label> : <input type="text" name="nom" id="nom" size="30" maxlenght="30" required value="<?php echo $nom ?>"/><br />
            <br />
 
-           <label for="adresse">Si vous souhaitez que je vous rencontre :</label><br />
+           <label for="adresse">Si vous souhaitez que je vous rencontre :</label><input id="adresse" name="adresse" value="<?php echo $adresse ?>"/><br />
 <br />
-                  <textarea name="adresse" id="adresse" rows="3" cols="40" placeholder="Adresse"></textarea><br />
+                  <textarea name="textadresse" id="textadresse" rows="3" cols="40" placeholder="Adresse" form="contactform"><?php echo $textadresse ?></textarea><br />
                   <br />
 
-                <label for="tel">Si vous souhaitez que je vous rappelle</label> : <input type="tel"/><br />
+                <label for="tel">Si vous souhaitez que je vous rappelle</label> : <input id="tel" name="tel" type="tel" value="<?php echo $tel ?>"/><br />
                 <br />
-                <label for="date">Si oui, a quelle date ? </label><input type="date"/><br />
+                <label for="date">Si oui, a quelle date ? </label><input id="date" name="date" type="date" value="<?php echo $date ?>"/><br />
                 <br />
 
 <label for="email">Envoyer ceci par email</label> : <input type="email" value="corentin.milot@free.fr"/><br />
 <br />
         <p>
 
-                Si besoin, voici un formulaire d'envoi de fichier :<br /><br />
+                Si besoin, voici un formulaire d'envoi de fichier (8Mo maximum):<br /><br />
 
                 <input type="file" name="monfichier" /><br /><br />
 
-                <input type="submit" value="Envoyer le fichier" />
-
         </p>
      <input type="submit" value="Envoyer" />
-     <input type="reset" value="Tout effacer" />
+     <input type="reset" value="Tout effacer" id="delete" onclick="effacer();" />
 
       </form><br />
    <br />   <br />   <br />   <br />   <br />

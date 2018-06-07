@@ -195,3 +195,12 @@ function showCoord() {
     var x = document.getElementById("Bienvenue");
     x.classList.add ("hidden");
 }
+
+function effacer()
+{
+  document.getElementById('nom').setAttribute("value", '');
+  document.getElementById('date').setAttribute("value", '');
+  document.getElementById('adresse').setAttribute("value", '');
+  document.getElementById('tel').setAttribute("value", '');
+  document.getElementById('textadresse').innerHTML='';
+}
