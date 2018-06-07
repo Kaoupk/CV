@@ -54,5 +54,5 @@ if (isset($_FILES['monfichier']) AND $_FILES['monfichier']['error'] == 0) {
         }
 
 }
-
+header("Location:index.php");
 ?>

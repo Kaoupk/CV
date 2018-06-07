@@ -99,6 +99,7 @@ else {
 	  <div class="fig"><img src="img/photo.jpg" style="width: 80px; margin-right: 40px;" alt="Logo photoshop" title="Photoshop" /></div>
   	<div class="fig"><img src="img/CSS3.png" style="width: 60px; margin-right: 40px;" alt="Logo CSS3" title="CSS3" /></div>
     <div class="fig"><img src="img/HTML5.png" style="width: 85px; margin-right: 40px;" alt="Logo HTML5" title="HTML5" /></div>
+    <div class="fig"><img src="img/php.png" style="width: 85px; margin-right: 40px;" alt="Logo PHP" title="PHP" /></div>
 </div><br />
         <li> <strong>Langues</strong>             Anglais (Niveau B1), Portugais (Niveau A1)</li><br />
         <div id="conteneurDrap">
@@ -140,7 +141,7 @@ else {
 
         </p>
      <input type="submit" value="Envoyer" />
-     <input type="reset" value="Tout effacer" id="delete" onclick="effacer();" />
+     <input type="reset" value="Tout effacer" id="delete" onclick="effacer(event);" />
 
       </form><br />
    <br />   <br />   <br />   <br />   <br />

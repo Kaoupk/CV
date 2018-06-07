@@ -196,8 +196,9 @@ function showCoord() {
     x.classList.add ("hidden");
 }
 
-function effacer()
+function effacer(event)
 {
+  event.preventDefault();
   document.getElementById('nom').setAttribute("value", '');
   document.getElementById('date').setAttribute("value", '');
   document.getElementById('adresse').setAttribute("value", '');
