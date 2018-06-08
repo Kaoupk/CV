@@ -1,5 +1,6 @@
 html{
 	height: 100%;
+
 }
 body{
 
@@ -37,13 +38,6 @@ body{
 			text-align: center;
 			align-self: center;
 }
-
-#box{
-	display: flex;
-	justify-content: space-between;
-	flex-direction: center;
-}
-
 
 #experiences{
 	font-size: 150%;
