@@ -58,7 +58,7 @@ else {
     Curriculum Vitae interactif, cliquez sur les onglets pour naviguer
   </div>
 <div id="conteneur">
-	<div class="hidden" id="competences">
+	<div class="hidden competences" id="competences">
 	  <ul>
       <li> Préparer le matériel nécessaire</li><br />
 	    <li> Respecter le temps indiqué et les consignes de sécurité et d’hygiène</li><br />
@@ -72,7 +72,7 @@ else {
 	  </ul>
 	</div>
 
-	<div class="hidden" id="experiences">
+	<div class="hidden experiences" id="experiences">
 	  <ul>
     <li>Juin 2018 - <strong>Stage en informatique</strong> - <em>Caldera</em> - Eckbolsheim - 2 semaines</li><br />
     <li>Mai 2018 - <strong>Stage en librairie</strong> - <em>Librairie Le Camphrier </em> - Strasbourg - 2 semaines</li><br />

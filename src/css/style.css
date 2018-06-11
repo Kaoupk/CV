@@ -18,9 +18,9 @@ body{
 	text-decoration: none;
 	}
 #Bienvenue{
-	font-size: 150%;
+	font-size: 200%;
 	text-align: center;
-	margin-top: 300px;
+	margin-top: 20%;
 }
 
 #conteneurimg{
@@ -33,28 +33,28 @@ body{
 	justify-content: center;
 }
 
-.competences{
-			font-size: 150%;
+#competences{
+			margin-top: 10%;
+			font-size: 165%;
 			text-align: center;
-			align-self: center;
 }
 
 #experiences{
-	font-size: 150%;
+	font-size: 180%;
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 13%;
 }
 
 #formations{
-	font-size: 150%;
+	font-size: 200%;
 	text-align: center;
-	margin-top: 250px;
+	margin-top: 20%;
 }
 
 #informations{
 	font-size: 150%;
 	text-align: center;
-	margin-top: 5%;
+	margin-top: 10%;
 }
 
 #coord{

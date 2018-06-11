@@ -182,13 +182,15 @@ function showCoord() {
     var x = document.getElementById("menuformations");
     x.classList.remove ("active");
 
-    var x = document.getElementById("informations");
-    x.classList.add ("hidden");
-    var x = document.getElementById("menuinformations");
-    x.classList.remove ("active");
+    var i = document.getElementById("informations");
+    i.classList.add ("hidden");
+    var i = document.getElementById("menuinformations");
+    i.classList.remove ("active");
 
-    var x = document.getElementById("coord");
-    x.classList.remove ("hidden");
+    var y = document.getElementById("coord");
+    y.classList.remove ("hidden");
+    window.setTimeout(function(){i.style.display = "none";}, 3000);
+    // x.style.display = "block";
     var x = document.getElementById("menucoord");
     x.classList.add ("active");
 

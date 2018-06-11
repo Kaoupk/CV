@@ -4,3 +4,4 @@ https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et
 https://www.w3schools.com/colors/colors_rgb.asp
 https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/session-cookies
 http://fr.php.net/manual/fr/funcref.php
+https://www.web-eau.net/blog/15-effets-css3-pour-vos-images
