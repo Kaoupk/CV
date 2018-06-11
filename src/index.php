@@ -54,8 +54,9 @@ else {
 	</header>
 
   <div id="Bienvenue">
-    Madame, Monsieur, bienvenue<br />
-    Curriculum Vitae interactif, cliquez sur les onglets pour naviguer
+    Madame, Monsieur, bienvenue sur mon Curriculum Vitae en ligne !<br /><br />
+    Ce CV est interactif, vous pouvez cliquez sur les onglets pour naviguer.<br /><br />
+    Les icônes sont elles aussi interactives si vous souhaitez plus d'informations.
   </div>
 <div id="conteneur">
 	<div class="hidden" id="competences">
@@ -98,7 +99,7 @@ else {
 	  <div class="figInfo"><img src="img/gimp.png" style="width: 80px; margin-right: 40px; "alt="Logo gimp" title="Gimp" /></div>
 	  <div class="figInfo"><img src="img/photo.jpg" style="width: 80px; margin-right: 40px;" alt="Logo photoshop" title="Photoshop" /></div>
   	<div class="figInfo"><img src="img/CSS3.png" style="width: 60px; margin-right: 40px;" alt="Logo CSS3" title="CSS3" /></div>
-    <div class="figInfo"><img src="img/php.png" style="width: 85px; margin-right: 40px;" alt="Logo PHP" title="PHP" /></div>
+    <div class="figInfo"><img src="img/php.gif" style="width: 120px; margin-top: 8px; margin-right: 10px;" alt="Logo PHP" title="PHP" /></div>
     <div class="figInfo"><img src="img/HTML5.png" style="width: 85px; margin-right: 40px;" alt="Logo HTML5" title="HTML5" /></div>
 </div><br />
         <li> <strong>Langues</strong>             Anglais (Niveau B1), Portugais (Niveau A1)</li><br />
