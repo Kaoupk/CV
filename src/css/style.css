@@ -63,6 +63,50 @@ body{
 	margin-top: 5%;
 }
 
+#competences, #experiences, #formations, #informations, #coord {
+  animation-duration: 3s;
+  animation-name: fade;
+
+}
+
+@keyframes fade {
+  from {
+  opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.figInfo{
+
+  height: 80px;
+  -webkit-filter: grayscale(0) blur(0px);
+  filter: grayscale(0) blur(0px);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.figInfo:hover {
+
+  height: 80px;
+  border-radius: 50%;  /* on arrondit l'image */
+  -webkit-transform: rotate(360deg); /* rotation de l'image */
+  transform: rotate(360deg);
+}
+
+.figLangue{
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.figLangue:hover{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
 .hidden{
 		display:none;
 }
