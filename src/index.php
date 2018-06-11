@@ -92,7 +92,7 @@ else {
 
 	<div class="hidden" id="informations">
 	  <ul>
-	    <li> <strong>Informatique</strong>   Pack Office, Gimp, Photoshop, CSS, HTML</li><br />
+	    <li> <strong>Informatique</strong>   Pack Office, Gimp, Photoshop, CSS, PHP, HTML</li><br />
       <div id="conteneurimg">
     <div class="figInfo"><img src="img/office.png" style="width: 80px; margin-right: 40px; "alt="Logo office" title="Pack Office" /></div>
 	  <div class="figInfo"><img src="img/gimp.png" style="width: 80px; margin-right: 40px; "alt="Logo gimp" title="Gimp" /></div>
