@@ -140,7 +140,7 @@ else {
                 <input type="file" name="monfichier" /><br /><br />
 
         </p>
-     <input type="submit" value="Envoyer" />
+     <input type="submit" value="Envoyer" id="button" title="Sauf l'email!"/>
      <input type="reset" value="Tout effacer" id="delete" onclick="effacer(event);" />
 
       </form><br />
