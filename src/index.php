@@ -95,20 +95,20 @@ else {
 	  <ul>
 	    <li> <strong>Informatique</strong>   Pack Office, Gimp, Photoshop, CSS, PHP, HTML</li><br />
       <div id="conteneurimg">
-    <div class="figInfo"><img src="img/office.png" style="width: 80px; margin-right: 40px; "alt="Logo office" title="Pack Office" /></div>
-	  <div class="figInfo"><img src="img/gimp.png" style="width: 80px; margin-right: 40px; "alt="Logo gimp" title="Gimp" /></div>
-	  <div class="figInfo"><img src="img/photo.jpg" style="width: 80px; margin-right: 40px;" alt="Logo photoshop" title="Photoshop" /></div>
-  	<div class="figInfo"><img src="img/CSS3.png" style="width: 60px; margin-right: 40px;" alt="Logo CSS3" title="CSS3" /></div>
-    <div class="figInfo"><img src="img/php.gif" style="width: 120px; margin-top: 8px; margin-right: 10px;" alt="Logo PHP" title="PHP" /></div>
-    <div class="figInfo"><img src="img/HTML5.png" style="width: 85px; margin-right: 40px;" alt="Logo HTML5" title="HTML5" /></div>
+    <div class="figInfo"><a href="../Pages/Office.php"><img src="img/office.png" style="width: 80px; margin-right: 40px; "alt="Logo office" title="Pack Office" /></a></div>
+	  <div class="figInfo"><a href="../Pages/Gimp.php"><img src="img/gimp.png" style="width: 80px; margin-right: 40px; "alt="Logo gimp" title="Gimp" /></a></div>
+	  <div class="figInfo"><a href="../Pages/Photoshop.php"><img src="img/photo.jpg" style="width: 80px; margin-right: 40px;" alt="Logo photoshop" title="Photoshop" /></a></div>
+  	<div class="figInfo"><a href="../Pages/css.php"><img src="img/CSS3.png" style="width: 60px; margin-right: 40px;" alt="Logo CSS3" title="CSS3" /></a></div>
+    <div class="figInfo"><a href="../Pages/php.php"><img src="img/php.gif" style="width: 120px; margin-top: 8px; margin-right: 10px;" alt="Logo PHP" title="PHP" /></a></div>
+    <div class="figInfo"><a href="../Pages/html.php"><img src="img/HTML5.png" style="width: 85px; margin-right: 40px;"  alt="Logo HTML5" title="HTML5" /></a></div>
 </div><br />
         <li> <strong>Langues</strong>             Anglais (Niveau B1), Portugais (Niveau A1)</li><br />
         <div id="conteneurDrap">
          <div class="figLangue"><img src="img/DrapeauAng.png" style="width: 80px; margin-right: 80px;" title="Niveau B1 !" /></div>
          <div class="figLangue"><img src="img/DrapeauPor.png" style="width: 80px; margin-left: 100px;" title="Niveau A1 !" /></div>
        </div><br /><br />
-        <li> <strong>Sports</strong>              Escalade, Parkour</li><br /><br />
-        <li> <strong>Loisirs</strong>             Mangas, jeux vidéos, films/films d’animation </li>
+        <li> <strong>Sports</strong> Escalade, Parkour</li><br /><br />
+        <li> <strong>Loisirs</strong> Mangas, jeux vidéos, films/films d’animation </li>
 	  </ul>
 	</div>
 
