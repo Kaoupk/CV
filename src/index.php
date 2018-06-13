@@ -149,7 +149,7 @@ else {
         Corentin MILOT<br/>
 	    20 ans<br/>
 	    6, rue du four banal, Illkirch-Graffenstaden<br/>
-	    corentin.milot@free.fr<br/>
+	    <a href="mailto:corentin.milot@free.fr">corentin.milot@free.fr</a><br/>
 	    06 21 67 27 72
 	  </p>
 	</div>
