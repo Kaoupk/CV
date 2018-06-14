@@ -175,7 +175,7 @@ session_start(); // On démarre la session AVANT toute chose
            <label for="tel">Si vous souhaitez que je vous rappelle</label> : <input id="tel" name="tel" type="tel" value="<?php echo $tel ?>"/><br />
            <br />
 
-           <label for="date">Si oui, a quelle date ? </label><input id="date" name="date" type="date" value="<?php echo $date ?>"/><br />
+           <label for="ladate">Si oui, a quelle date ? </label><input id="date" name="date" type="date" value="<?php echo $date ?>"/><br />
            <br />
 
           <label for="email">Envoyer ceci par email</label> : <input type="email" value="corentin.milot@free.fr"/><br />
