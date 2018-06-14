@@ -163,7 +163,7 @@ session_start(); // On démarre la session AVANT toute chose
       <form method="post" action="CibleFormulaire.php" enctype="multipart/form-data" id="contactform">
 
 
-           <label for="nom">Votre nom </label> : <input type="text" name="nom" id="nom" size="30" maxlenght="30" required value="<?php echo $nom ?>"/><br />
+           <label for="nom">Votre nom et/ou le nom de l'entreprise </label> : <input type="text" name="nom" id="nom" size="30" maxlenght="30" required value="<?php echo $nom ?>"/><br />
            <br />
 
            <label for="adresse">Si vous souhaitez que je vous rencontre :<br /><br /><textarea name="textadresse" id="textadresse" rows="3" cols="40" placeholder="Adresse" form="contactform"><?php echo $textadresse ?></textarea><br />
@@ -188,7 +188,7 @@ session_start(); // On démarre la session AVANT toute chose
 
    </p>
                 <input type="submit" value="Envoyer" id="button" title="Sauf l'email!"/>
-                <input type="reset" value="Tout effacer" id="delete" onclick="effacer(event);" />
+                <input type="reset" value="Reinitialiser" id="delete" onclick="effacer(event);" />
 
       </form><br />
 
