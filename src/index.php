@@ -166,19 +166,16 @@ session_start(); // On démarre la session AVANT toute chose
            <label for="nom">Votre nom </label> : <input type="text" name="nom" id="nom" size="30" maxlenght="30" required value="<?php echo $nom ?>"/><br />
            <br />
 
-           <label for="adresse">Si vous souhaitez que je vous rencontre :</label><input id="adresse" name="adresse" value="<?php echo $adresse ?>"/><br />
-           <br />
-
-           <textarea name="textadresse" id="textadresse" rows="3" cols="40" placeholder="Adresse" form="contactform"><?php echo $textadresse ?></textarea><br />
+           <label for="adresse">Si vous souhaitez que je vous rencontre :<br /><br /><textarea name="textadresse" id="textadresse" rows="3" cols="40" placeholder="Adresse" form="contactform"><?php echo $textadresse ?></textarea><br />
            <br />
 
            <label for="tel">Si vous souhaitez que je vous rappelle</label> : <input id="tel" name="tel" type="tel" value="<?php echo $tel ?>"/><br />
            <br />
 
-           <label for="ladate">Si oui, a quelle date ? </label><input id="date" name="date" type="date" value="<?php echo $date ?>"/><br />
+           <label for="ladate">Si oui, a quelle date ? </label><input id="ladate" name="ladate" type="date" value="<?php echo $date ?>"/><br />
            <br />
 
-          <label for="email">Envoyer ceci par email</label> : <input type="email" value="corentin.milot@free.fr"/><br />
+          <label for="email">Envoyer ceci par email</label> : <input type="email" id="email" name="email" value="corentin.milot@free.fr"/><br />
           <br />
 
    </p>
@@ -211,6 +208,23 @@ session_start(); // On démarre la session AVANT toute chose
 
   </div>
 
+<?php
+
+// Connexion à la base de données
+
+  try
+{
+    $bdd = new PDO('mysql:host=localhost;dbname=CV;charset=utf8', 'root', '');
+}
+
+  catch(Exception $e)
+{
+
+  die('Erreur : '.$e->getMessage());
+}
+
+$reponse = $bdd->query('SELECT nom, textadresse, tel, ladate, email FROM Formulaire');
+?>
   </body>
 
 </html>
