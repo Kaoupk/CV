@@ -13,8 +13,23 @@ body{
 	width: 100;
   -webkit-background-size: cover;
   background-size: cover;
-
 	}
+
+.mail{
+	text-decoration: none;
+	font-style: oblique;
+}
+
+.mail:hover{
+	font-weight: bold;
+	color: #4caf50;
+}
+
+.mail:active{
+	font-weight: lighter;
+	color: black;
+}
+
 #button, #delete{
 	background: linear-gradient(to bottom right, #FF9FC5, #000000);
 	border: none;
