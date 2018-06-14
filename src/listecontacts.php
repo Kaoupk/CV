@@ -4,13 +4,27 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Liste de mes contacts</title>
+
+    <style>
+
+table{
+        border-collapse: collapse;
+}
+
+td, th{
+        border: 2px double black;
+        padding: 4px;
+}
+
+    </style>
+
   </head>
 
   <body>
 
     <table>
 
-       <caption>Passagers du vol 377</caption>
+       <caption>Liste de mes contacts</caption>
 
           <tr>
 
@@ -26,7 +40,7 @@
 
           </tr>
 
-        
+
 
     </table>
 
