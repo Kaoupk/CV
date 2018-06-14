@@ -85,9 +85,15 @@ else {
 	</div>
 
     <div class="hidden" id="formations">
-	  <ul>
-        <li>2017 - <strong>Bac STIDD - Lycée Louis Couffignal</strong> - Strasbourg</li><br />
-		<li style="margin-right: 10px;">2013 - <b>Brevet des collèges - Collège des Roseaux</b> - Illkirch</li>
+    <ul>
+    <div class="hoverme">  <li>2017 - <strong>Bac STIDD - Lycée Louis Couffignal</strong> - Strasbourg</li><br />
+      <img class="imagelycee" src="img/logolycéecouff.jpg" alt="Logo Lycée" title="Le logo du lycée !" style="width: 850px;">
+      <img class="imagelycee" src="img/lycéecouff.jpg" alt="Lycée" title="Le lycée !" style="width: 530px;">
+    </div><br />
+		<div class="hoverme2"> <li style="margin-right: 10px;">2013 - <b>Brevet des collèges - Collège des Roseaux</b> - Illkirch</li>
+<img class="imagecollege" src="img/college.jpg" alt="Collège" title="Le collège !" style="width: 530px; margin-right: 20px;">
+<img class="imagecollege" src="img/roseaux.jpg" alt="Collège" title="Panneau du collège !" style="width: 530px; margin-left: 20px;">
+    </div>
 	  </ul>
     </div>
 
