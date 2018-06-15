@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
 
-    <title>Le HTML</title>
+    <title>Le CSS</title>
 
 </head>
 

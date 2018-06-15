@@ -21,9 +21,24 @@
               die('Erreur : ' . $e->getMessage());
 }
 
+    $total_formulaire_req = $bdd->query('SELECT count(nom) FROM Formulaire ORDER BY ID DESC LIMIT 0,50');
+    $total_formulaire     = $total_formulaire_req->fetch()[0];
 
-    $reponse = $bdd->query('SELECT nom, tel, textadresse, ladate, email FROM Formulaire ORDER BY ID DESC LIMIT 0,50');
+    $nb_pages = ceil($total_formulaire / 2);
 
+    // echo $total_formulaire . " " .$nb_pages;
+
+    // Get asked page
+    if (isset($_GET['page']) && $_GET['page'] >= 1) {
+      $limitFrom = 2 * ($_GET['page'] - 1);
+      $limitTo   = 2 * $_GET['page'];
+    } else {
+      $limitFrom = 0;
+      $limitTo   = 2;
+    }
+    $reponse = $bdd->query(
+      "SELECT nom, tel, textadresse, ladate, email FROM Formulaire ORDER BY ID DESC LIMIT $limitFrom,$limitTo"
+    );
 ?>
 
 
@@ -51,6 +66,7 @@
             echo '<td><p>' . htmlspecialchars($donnees['email']) . '</p></td>';
             echo "</tr>";
           }
+
 ?>
 
         </table>
@@ -58,6 +74,12 @@
     </div>
 <?php
 $reponse->closeCursor();
+// Affiche "Pages" et leurs numeros
+echo "Page: ";
+for( $p = 1; $p <= $nb_pages; $p++ ) {
+  // Pour changer de page
+  echo "<a href='listecontacts.php?page=$p'>$p</a>  ";
+}
 ?>
   </body>
 </html>
