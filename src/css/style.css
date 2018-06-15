@@ -47,7 +47,7 @@ body{
 }
 
 #button, #delete{
-	background: linear-gradient(to bottom right, #FF9FC5, #000000);
+	background: linear-gradient(to bottom right, #FF9FC5, salmon);
 	border: none;
 	color: white;
 	padding: 15px 32px;

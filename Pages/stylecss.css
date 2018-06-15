@@ -1,0 +1,20 @@
+h2{
+  color: red;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+p{
+  border: 4mm ridge lime;
+  margin-right: 850px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body{
+  background: linear-gradient(to bottom right, pink, salmon);
+}
+a:hover{
+  color: white;
+}
